@@ -1,0 +1,34 @@
+@import '~antd/dist/antd.css';
+
+.navigation li {
+  list-style: none;
+}
+
+li {
+  list-style: circle;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.main__info {
+  /* flex: 0.3; */
+  display: grid;
+  place-items: center;
+}
+
+.main__file {
+  /* background-color: #0F084B; */
+  background-color: #d0e6f9;
+  /* flex: 0.7; */
+  display: grid;
+  place-items: center;
+}
